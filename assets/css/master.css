@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Background Pattern via http://subtlepatterns.com/ */
+
+html
+{
+	background: url(../images/graphy.png) repeat center center;
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+#logo
+{
+	font-size: 100px;
+	font-weight: bold;
+	white-space: nowrap;
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	color: rgba(0,0,0,.1);
+	z-index: -75;
+}
+
+/* Border */
+
+#border
+{
+	margin: 0;
+}
+#border li
+{
+	position: fixed;
+	list-style: none;
+	margin: 0;
+	background-color: rgb(255, 255, 255); 
+	background-color: rgba(0,0,0,.1);
+	z-index: 75;
+}
+li#top
+{
+	height: 10px;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+li#right
+{
+	width: 10px;
+	bottom: 10px;
+	right: 0;
+	top: 10px;
+}
+li#bottom
+{
+	height: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+li#left
+{
+	width: 10px;
+	bottom: 10px;
+	left: 0;
+	top: 10px;
+}
